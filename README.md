@@ -405,6 +405,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ⭐ **Star this repo if you find it helpful!** ⭐
 
-[🌐 Live Demo](http://127.0.0.1:5000) • [📧 Contact](mailto:your-email@example.com) • [💼 LinkedIn](https://linkedin.com/in/yourprofile)
+[🌐 Live Demo](https://tiny-url-shortner-sooty.vercel.app/) • [📧 Contact](kulkarnibruhat@gmail.com) • [💼 LinkedIn](https://www.linkedin.com/in/bruhat15)
 
 </div>
