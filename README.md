@@ -324,35 +324,6 @@ Every URL has a copy button that:
 </tr>
 </table>
 
-## 🚀 **Deployment**
-
-### **☁️ Deploy to Vercel (Free & Fast)**
-
-1. **One-Click Deploy**
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/bruhat15/TinyURL--Url-Shortner)
-
-2. **Or use CLI**
-   ```bash
-   # Install Vercel CLI
-   npm i -g vercel
-   
-   # Deploy
-   vercel
-   ```
-
-3. **Manual Setup**
-   - Fork this repository
-   - Connect to Vercel dashboard
-   - Deploy automatically on every push!
-
-## 🔧 **Configuration**
-
-### **Environment Variables**
-```bash
-FLASK_ENV=production          # Set to production for live deployment
-SECRET_KEY=your-secret-key    # Change this in production
-SESSION_TIMEOUT=7200          # Session timeout in seconds (default: 2 hours)
-```
 
 ### **Customization Options**
 - **Theme Colors**: Edit CSS variables in `style.css`
