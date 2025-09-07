@@ -6,10 +6,17 @@ import os
 import uuid
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key_here_change_this_in_production'
+
+# Use environment variable or default secret key
+app.secret_key = os.environ.get('SECRET_KEY', 'dev-secret-key-change-in-production-2024-tinyurl-pro')
 
 # Session configuration - URLs expire after 2 hours
 app.permanent_session_lifetime = timedelta(hours=2)
+
+# Production configuration
+if os.environ.get('VERCEL'):
+    app.config['ENV'] = 'production'
+    app.config['DEBUG'] = False
 
 # Function to initialize user session
 def initialize_session():
@@ -317,10 +324,14 @@ def get_stats():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+# For Vercel deployment - this should be at the module level
+# Vercel will call this app object directly
 if __name__ == '__main__':
+    # Local development
     print("🚀 Starting TinyURL Pro with session-based storage (2-hour expiry)")
     print("💡 URLs are stored per user session and automatically expire after 2 hours")
     print("🌐 Server running at: http://127.0.0.1:5000")
-    
-    # Run the app
     app.run(debug=True, host='127.0.0.1', port=5000)
+
+# This is needed for Vercel
+app.config['ENV'] = 'production'
