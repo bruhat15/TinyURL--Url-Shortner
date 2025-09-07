@@ -17,6 +17,7 @@
 ---
 
 ### ✨ **Transform your long URLs into powerful, trackable short links**
+<img width="2832" height="1473" alt="image" src="https://github.com/user-attachments/assets/b87dd3eb-e8b1-4d80-8a4a-2360747cfac2" />
 
 </div>
 
