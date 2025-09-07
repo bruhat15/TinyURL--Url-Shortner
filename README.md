@@ -12,7 +12,7 @@
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-[🌐 Live Demo](#-getting-started) • [📖 Documentation](#-features) • [🚀 Deploy](#-deployment) • [🤝 Contributing](#-contributing)
+[🌐 Live Demo](#-getting-started) • [📖 Documentation](#-features) • [🤝 Contributing](#-contributing)
 
 ---
 
